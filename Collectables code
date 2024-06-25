@@ -1,0 +1,8 @@
+extends Area2D
+
+
+
+#going to extend on this later by using this function
+func _on_body_entered(body):
+	print("+1 Coin")
+	queue_free()
